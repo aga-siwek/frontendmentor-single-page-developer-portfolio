@@ -11,4 +11,18 @@
     --color-5: hsl(0, 0%, 100%);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(80rem/16);
+    padding: 16px;
+    position: relative;
+
+}
+.top_container {
+
+    padding-bottom: 250px;
+}
 

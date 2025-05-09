@@ -1,6 +1,39 @@
-import styles from "./ExperianceBox.module.scss";
+import styles from "./ExperianceBox.module.css";
 
+function ExperianceBox({kind, experianceYears, certyfications}) {
 
-function ExperianceBox() {}
+    const showExpoeriences = () => {
+        if (experianceYears === 1) {
+            return "1 Year experience"
+        } else if (experianceYears >= 2) {
+            return (<p className={styles.experience_box__exp}>{experianceYears} Years experience</p>)
+
+        }
+    }
+    const showCertyfications = () => {
+        if (certyfications) {
+            return (
+                <div>
+                    <p>Certyfication</p>
+                    {certyfications.map((certyfication) => {
+                        return (
+                            <div>
+                                <p>{certyfication}</p>
+                            </div>)
+                    })}
+                </div>
+            )
+        }
+    }
+
+    return (
+        <div className={styles.experience_box}>
+            <h3 className={styles.experience_box__header}>{kind}</h3>
+            <div>
+                {showExpoeriences()}
+            </div>
+        </div>
+    )
+}
 
 export default ExperianceBox;

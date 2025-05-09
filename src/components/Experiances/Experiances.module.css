@@ -1,0 +1,20 @@
+.experiances {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(40rem/16);
+    width: 100%;
+}
+
+.experiances__line {
+    width: 100%;
+}
+
+.experiances_boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(24rem/16);
+}

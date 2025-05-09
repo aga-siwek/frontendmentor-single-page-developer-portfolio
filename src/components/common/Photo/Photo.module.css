@@ -1,0 +1,20 @@
+.photo__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    z-index: 1
+}
+.photo__img {
+    max-width: 174px
+}
+
+.photo__tablet {
+    display: none;
+}
+
+.photo__desktop {
+    display: none;
+}

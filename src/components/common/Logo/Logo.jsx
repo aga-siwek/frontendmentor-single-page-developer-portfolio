@@ -1,5 +1,11 @@
-import styles from "./Logo.module.scss";
+import styles from "./Logo.module.css";
 
-function Logo() {}
+function Logo() {
+    return (
+        <div>
+        <p className={styles.logo}>adamkeyes</p>
+        </div>
+    )
+}
 
 export default Logo;

@@ -1,0 +1,20 @@
+.experience_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(2rem/16);
+}
+
+.experience_box__header {
+    font-size: calc(32rem/16);
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: calc(40rem/16);
+}
+
+.experience_box__exp {
+    line-height: calc(26rem/16);
+    font-weight: normal;
+
+}
