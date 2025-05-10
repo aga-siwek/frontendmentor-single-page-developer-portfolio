@@ -11,19 +11,25 @@ function App() {
 
     return (
         <>
-            <div className="container">
+            <div className="container background__patterns">
                 <div className="top_container">
                     <Header/>
-
-                    <Photo/>
                 </div>
-                    <AboutMe/>
+                <div className="middle_container">
+                    <div className="middle_container_top">
+                        <AboutMe/>
+                        <Photo/>
 
-
-                <Experiances/>
-                <Projects/>
-                <Contact/>
-                <Footer/>
+                    </div>
+                    <div className="middle_container_bottom background__pattern__rings__middle">
+                        <Experiances/>
+                        <Projects/>
+                    </div>
+                </div>
+                <div className="bottom_container background__pattern__rings__bottom">
+                    <Contact/>
+                    <Footer/>
+                </div>
             </div>
         </>
     )

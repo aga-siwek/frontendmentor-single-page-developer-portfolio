@@ -5,7 +5,7 @@ import developmentPhotoTablet from "../../../assets/image-profile-tablet.webp"
 
 function Photo() {
     return (
-        <div>
+        <div className={styles.photo}>
             <div className={styles.photo__mobile}>
                 <img src={developerPhotoMobile} className={styles.photo__img}/>
             </div>

@@ -3,10 +3,29 @@
     flex-direction: row;
     gap: 25px;
 }
+
 .socialmedia__icon__img {
     width: 20px;
     height: 20px;
     fill: var(--font-color-1)
+}
+
+.socialmedia__icon__img svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.socialmedia__icon__img_twitter {
+    width: 20px;
+    height: 20px;
+    fill: var(--font-color-1)
+}
+
+.socialmedia__icon__img svg {
+    display: block;
+    vertical-align: middle;
+    height: 100%;
+    width: 120%;
 }
 
 

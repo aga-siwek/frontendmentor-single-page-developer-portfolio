@@ -1,8 +1,9 @@
-.projects{
+.projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: calc(40rem/16);
+    gap: calc(40rem / 16);
+    padding: 0 16px;
 }
 
 .projects__header {
@@ -12,9 +13,22 @@
     align-items: center;
 }
 
+.projects__header__text {
+    font-size: calc(40rem/16);
+    font-weight: bold;
+    letter-spacing: -1.14px;
+    line-height: calc(40rem / 16);
+}
+
 .ProjectsBoxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: calc(40rem/16);
+    gap: calc(40rem / 16);
+}
+
+@media (min-width: 768px) {
+    .projects {
+        padding: 0 32px;
+    }
 }

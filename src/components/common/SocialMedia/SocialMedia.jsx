@@ -3,11 +3,11 @@ import githubIcon from "../../../assets/icon-github.svg"
 import linkedinIcon from "../../../assets/icon-linkedin.svg"
 import frontendMentorIcon from "../../../assets/icon-frontend-mentor.svg"
 import twitterIcon from "../../../assets/icon-twitter.svg"
-import {ReactSVG} from "react-svg";
 const linkedinLink = "https://www.linkedin.com/"
 const githubLink = "https://github.com/aga-siwek"
 const frontendMentorLink = "https://www.frontendmentor.io/profile/aga-siwek"
 const twitterLink = "https://twitter.com/"
+import {ReactSVG} from "react-svg";
 
 
 function SocialMedia() {

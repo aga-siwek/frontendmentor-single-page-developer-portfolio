@@ -2,9 +2,9 @@ import styles from "./ContactButton.module.css"
 
 function ContactButton() {
     return (
-        <div className={styles.about_me__contact}>
-            <a className={styles.about_me__text}>CONTACT ME</a>
-            <hr className={styles.about_me__contact__line}></hr>
+        <div className={styles.contact_button}>
+            <a className={styles.contact_button__text}>CONTACT ME</a>
+            <hr className={styles.contact_button__contact__line}></hr>
         </div>
     )
 }

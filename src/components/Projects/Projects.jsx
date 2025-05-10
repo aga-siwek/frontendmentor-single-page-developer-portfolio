@@ -12,7 +12,7 @@ function Projects() {
     return (
         <div className={styles.projects}>
             <div className={styles.projects__header}>
-                <h2>Projects</h2>
+                <h2 className={styles.projects__header__text}>Projects</h2>
                 <ContactButton />
             </div>
             <div className={styles.ProjectsBoxes}>

@@ -9,6 +9,8 @@
     --color-4: hsl(0, 0%, 85%);
     /*white*/
     --color-5: hsl(0, 0%, 100%);
+    /*orange*/
+    --color-6: hsl(7, 100%, 68%);
 }
 
 .container {
@@ -17,12 +19,73 @@
     align-items: center;
     justify-content: center;
     gap: calc(80rem/16);
-    padding: 16px;
-    position: relative;
 
 }
 .top_container {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 250px;
 }
 
+.middle_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(80rem/16);
+}
+
+middle_container_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(80rem/16);
+}
+
+.middle_container_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: calc(80rem/16);
+}
+
+.bottom_container {
+    background-color: var(--color-3);
+    padding-bottom: 16px;
+}
+
+.background__patterns {
+    background-image:
+            url('./assets/pattern-circle.svg'),
+            url('./assets/pattern-rings.svg') ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: calc(100% + 60px) 5.5%, calc(0% - 320px) 3%
+}
+
+.background__pattern__rings__middle {
+    background-image: url('./assets/pattern-rings.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% + 350px) calc(0% + 760px)
+}
+
+.background__pattern__rings__bottom {
+    background-image: url('./assets/pattern-rings.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% + 350px) calc(100% - 210px)
+}
+
+@media (min-width: 768px) {
+
+    .top_container {
+        padding-bottom: 0;
+    }
+    .middle_container_top {
+        display: flex;
+        flex-direction: row;
+    }
+}

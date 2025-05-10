@@ -5,7 +5,7 @@
     justify-content: center;
     gap: calc(87rem/16);
     width: 100%;
-
+    padding: 16px;
 }
 
 .contact {
@@ -39,4 +39,10 @@
 
 .contact__line {
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contact__container {
+        padding: 0 32px;
+    }
 }
