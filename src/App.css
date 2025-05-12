@@ -19,6 +19,10 @@
     align-items: center;
     justify-content: center;
     gap: calc(80rem/16);
+    padding-top:  calc(16rem/16);
+    width: 100%;
+    position: relative;
+
 
 }
 .top_container {
@@ -38,12 +42,11 @@
     gap: calc(80rem/16);
 }
 
-middle_container_top {
+.middle_container_top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(80rem/16);
 }
 
 .middle_container_bottom {
@@ -64,22 +67,52 @@ middle_container_top {
             url('./assets/pattern-circle.svg'),
             url('./assets/pattern-rings.svg') ;
     background-repeat: no-repeat, no-repeat;
-    background-position: calc(100% + 60px) 5.5%, calc(0% - 320px) 3%
+    background-position: calc(100% + 60px) 5.5%, calc(0% - 320px) 3%;
+    position: absolute;
+}
+.background__pattern__circle__top {
+    background-image: url('./assets/pattern-circle.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+    width: 129px;
+    height: 129px;
+    top: 250px;
+    right: 0;
+    overflow: hidden;
+    background-position: 65px 0;
+}
+
+.background__pattern__rings__top {
+    background-image: url('./assets/pattern-rings.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 129px;
+    top: 130px;
+    background-position: -320px 0;
+
 }
 
 .background__pattern__rings__middle {
     background-image: url('./assets/pattern-rings.svg');
     background-repeat: no-repeat;
-    background-position: calc(100% + 350px) calc(0% + 760px)
+    background-position: calc(100% + 350px) calc(0% + 530px)
 }
 
 .background__pattern__rings__bottom {
     background-image: url('./assets/pattern-rings.svg');
     background-repeat: no-repeat;
-    background-position: calc(100% + 350px) calc(100% - 210px)
+    background-position: calc(0% - 350px) calc(100% - 210px)
 }
 
 @media (min-width: 768px) {
+    .container {
+        gap: calc(100rem/16);
+        padding-top:  calc(32rem/16);
+        overflow: hidden;
+    }
 
     .top_container {
         padding-bottom: 0;
@@ -87,5 +120,21 @@ middle_container_top {
     .middle_container_top {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start ;
     }
+    .bottom_container {
+        padding-bottom: 40px;
+    }
+
+    .background__pattern__circle__top {
+        top: 470px;
+
+    }
+
+    .background__pattern__rings__middle {
+        background-position: calc(100% + 350px) calc(0% + 310px)
+    }
+
+    .background__pattern__rings__bottom {
+        background-position: calc(0% - 350px) calc(100% - 100px);}
 }

@@ -9,8 +9,8 @@ function Experiances() {
             <div className={styles.experiances_boxs}>
                 <ExperianceBox kind="HTML" experianceYears={4} />
                 <ExperianceBox kind="CSS" experianceYears={4}/>
-                <ExperianceBox kind="Accessibility" experianceYears={4}/>
                 <ExperianceBox kind="JavaScript" experianceYears={2}/>
+                <ExperianceBox kind="Accessibility" experianceYears={4}/>
                 <ExperianceBox kind="React" experianceYears={1}/>
                 <ExperianceBox kind="Sass" experianceYears={1}/>
             </div>

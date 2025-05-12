@@ -30,5 +30,16 @@
 @media (min-width: 768px) {
     .projects {
         padding: 0 32px;
+        .projects__header__text {
+            font-size: calc(72rem/16);
+            line-height: 72px;
+            letter-spacing: -2.05px;
+        }
+
+        .ProjectsBoxes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
     }
 }

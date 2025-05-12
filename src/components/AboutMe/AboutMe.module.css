@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     gap: calc(24rem/16);
-
 }
 
 .about_me__header {
@@ -39,22 +38,23 @@
 
 @media (min-width: 768px) {
     .about_me {
-        display: grid;
-        grid-template-rows: auto 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
         gap: calc(60rem/16);
         padding: 0 32px;
+        max-width: 80%;
     }
     .about_me__header {
-        width: 100%;
         z-index: 2;
-
     }
+
     .about_me__header__text {
         font-size: calc(72rem/16);
         line-height: calc(72rem/16);
         letter-spacing: -2.05px;
         text-align: left;
-        width: 130%;
     }
 
     .about_me__info__text {

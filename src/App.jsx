@@ -11,7 +11,9 @@ function App() {
 
     return (
         <>
-            <div className="container background__patterns">
+            <div className="background__pattern__circle__top"></div>
+            <div className="background__pattern__rings__top"></div>
+            <div className="container">
                 <div className="top_container">
                     <Header/>
                 </div>
@@ -19,7 +21,6 @@ function App() {
                     <div className="middle_container_top">
                         <AboutMe/>
                         <Photo/>
-
                     </div>
                     <div className="middle_container_bottom background__pattern__rings__middle">
                         <Experiances/>
@@ -31,6 +32,7 @@ function App() {
                     <Footer/>
                 </div>
             </div>
+
         </>
     )
 }

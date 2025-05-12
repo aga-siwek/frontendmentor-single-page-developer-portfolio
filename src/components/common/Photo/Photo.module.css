@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 0px;
+    top: 0;
     z-index: 1;
 }
 .photo__img {
@@ -30,17 +30,24 @@
 }
 
 @media (min-width: 768px) {
+    .photo {
+        justify-content: center;
+        width: auto;
+
+    }
     .photo__mobile {
         display: none;
     }
     .photo__tablet {
-        position: absolute;
         display: block;
+        position: absolute;
         top: 0;
         right: 0;
         z-index: 1;
+
     }
     .photo__img {
-        min-width: 322px;
+        max-width: calc(322rem/16);
+
     }
 }

@@ -29,6 +29,6 @@
     .experiances_boxs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-        gap: calc(24rem/16) calc(128rem/16)
+        gap: calc(24rem/16) calc(121rem/16)
     }
 }

@@ -10,21 +10,6 @@ function ExperianceBox({kind, experianceYears, certyfications}) {
 
         }
     }
-    const showCertyfications = () => {
-        if (certyfications) {
-            return (
-                <div>
-                    <p>Certyfication</p>
-                    {certyfications.map((certyfication) => {
-                        return (
-                            <div>
-                                <p>{certyfication}</p>
-                            </div>)
-                    })}
-                </div>
-            )
-        }
-    }
 
     return (
         <div className={styles.experience_box}>

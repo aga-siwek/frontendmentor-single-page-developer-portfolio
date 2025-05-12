@@ -43,6 +43,16 @@
 
 @media (min-width: 768px) {
     .contact__container {
-        padding: 0 32px;
+        padding: 60px 161px 0 161px;
+    }
+
+    .contact_information__header {
+        font-size: calc(72rem/16);
+        line-height: 72px;
+        letter-spacing: -2.05px;
+    }
+
+    .contact_information__text {
+        font-size: calc(18rem/16);
     }
 }
