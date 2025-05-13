@@ -4,5 +4,13 @@
     line-height: 32px;
     font-size: 24px;
     text-align: center;
+}
 
+@media(min-width: 768px) {
+    .logo {
+        font-size: calc(32rem/16);
+        line-height: 32px;
+        letter-spacing: -0.44px;
+
+    }
 }

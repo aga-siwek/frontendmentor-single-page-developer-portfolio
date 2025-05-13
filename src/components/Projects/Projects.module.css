@@ -14,7 +14,7 @@
 }
 
 .projects__header__text {
-    font-size: calc(40rem/16);
+    font-size: calc(40rem / 16);
     font-weight: bold;
     letter-spacing: -1.14px;
     line-height: calc(40rem / 16);
@@ -30,8 +30,10 @@
 @media (min-width: 768px) {
     .projects {
         padding: 0 32px;
+        gap: calc(60rem / 16);}
+
         .projects__header__text {
-            font-size: calc(72rem/16);
+            font-size: calc(72rem / 16);
             line-height: 72px;
             letter-spacing: -2.05px;
         }
@@ -39,7 +41,23 @@
         .ProjectsBoxes {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: calc(60rem / 16) calc(24rem / 16);
         }
 
+    }
+
+@media (min-width: 1440px) {
+    .projects {
+        padding: 0 170px;
+        gap: calc(80rem / 16);
+    }
+
+    .projects__header__text {
+        font-size: calc(88rem / 16);
+        line-height: 88px;
+        letter-spacing: -2.5px;
+    }
+    .ProjectsBoxes {
+        gap: calc(69rem / 16) calc(30rem / 16);
     }
 }

@@ -1,12 +1,12 @@
 import styles from "./ExperianceBox.module.css";
 
-function ExperianceBox({kind, experianceYears, certyfications}) {
+function ExperianceBox({kind, experianceYears}) {
 
     const showExpoeriences = () => {
         if (experianceYears === 1) {
-            return "1 Year experience"
+            return "1 Year Experience"
         } else if (experianceYears >= 2) {
-            return (<p className={styles.experience_box__exp}>{experianceYears} Years experience</p>)
+            return (<p className={styles.experience_box__exp}>{experianceYears} Years Experience</p>)
 
         }
     }

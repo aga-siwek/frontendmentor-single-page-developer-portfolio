@@ -12,6 +12,10 @@
     width: 100%;
 }
 
+.experiances__line__bottom {
+    width: 100%;
+}
+
 .experiances_boxs {
     display: flex;
     flex-direction: column;
@@ -31,4 +35,21 @@
     grid-template-columns: repeat(2, 1fr);
         gap: calc(24rem/16) calc(121rem/16)
     }
+
+    .experiances__line__bottom {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .experiances {
+        padding: 0 165px;
+        gap: calc(72rem/16);
+    }
+
+        .experiances_boxs {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap: calc(60rem/16) calc(100rem/16)}
 }

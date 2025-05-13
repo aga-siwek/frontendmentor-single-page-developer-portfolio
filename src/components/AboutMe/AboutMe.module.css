@@ -42,9 +42,14 @@
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        gap: calc(60rem/16);
+        gap: calc(34rem/16);
         padding: 0 32px;
         max-width: 80%;
+    }
+
+    .about_me__info {
+        align-items: flex-start;
+        gap: calc(60rem/16);
     }
     .about_me__header {
         z-index: 2;
@@ -57,7 +62,34 @@
         text-align: left;
     }
 
+    .about_me__info__container {
+        max-width: 400px;
+    }
+
     .about_me__info__text {
         text-align: left;
+        font-size: calc(18rem/16);
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .about_me {
+        padding: 0 165px 0 165px;
+        gap: calc(66rem/16);
+    }
+    .about_me__info {
+        gap: calc(43rem/16);
+
+    }
+
+    .about_me__header__text {
+        font-size: calc(88rem/16);
+        line-height: calc(88rem/16);
+        letter-spacing: -2.5px;
+    }
+
+    .about_me__info__container {
+        max-width: 445px;
     }
 }

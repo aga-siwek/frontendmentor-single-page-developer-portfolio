@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: var(--main-background-color);
   color: var(--font-color-1);
   font-family: "Space Grotesk", sans-serif;

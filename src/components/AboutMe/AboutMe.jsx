@@ -9,7 +9,7 @@ function AboutMe() {
                     <h1 className={styles.about_me__header__text}>Nice to meet you! I’m <span
                         className={styles.about_me__header__text__name}>Adam Keyes</span>.</h1>
                 </div>
-                <div className={styles.about_me__info__text}>
+                <div className={styles.about_me__info__container}>
                     <p className={styles.about_me__info__text}>Based in the UK, I’m a front-end developer
                         passionate about building accessible web apps that users love.</p>
                 </div>

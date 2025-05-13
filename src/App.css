@@ -11,6 +11,7 @@
     --color-5: hsl(0, 0%, 100%);
     /*orange*/
     --color-6: hsl(7, 100%, 68%);
+    --color-7: hsl(0, 0%, 59%);
 }
 
 .container {
@@ -22,9 +23,8 @@
     padding-top:  calc(16rem/16);
     width: 100%;
     position: relative;
-
-
 }
+
 .top_container {
     display: flex;
     flex-direction: column;
@@ -58,6 +58,9 @@
 }
 
 .bottom_container {
+    display: flex;
+    flex-direction: column;
+    gap: calc(34rem/16);
     background-color: var(--color-3);
     padding-bottom: 16px;
 }
@@ -110,7 +113,6 @@
 @media (min-width: 768px) {
     .container {
         gap: calc(100rem/16);
-        padding-top:  calc(32rem/16);
         overflow: hidden;
     }
 
@@ -122,13 +124,18 @@
         flex-direction: row;
         justify-content: flex-start ;
     }
+
+    .middle_container_bottom {
+        gap: calc(100rem/16);
+    }
+
     .bottom_container {
         padding-bottom: 40px;
     }
 
+
     .background__pattern__circle__top {
         top: 470px;
-
     }
 
     .background__pattern__rings__middle {
@@ -137,4 +144,44 @@
 
     .background__pattern__rings__bottom {
         background-position: calc(0% - 350px) calc(100% - 100px);}
+
+    .bottom_container {
+        gap: calc(30rem/16);
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+    .bottom_container {
+        gap: calc(47rem/16);
+    }
+
+    .middle_container {
+        gap: calc(219rem/16);
+    }
+
+    .middle_container_bottom {
+        gap: calc(140rem/16);
+        padding-bottom: 28px;
+
+    }
+
+    .background__pattern__circle__top {
+        background-position: 0 0;
+        right: 537px;
+        top: 520px;
+    }
+
+    .background__pattern__rings__top {
+        background-position: -100px 0;
+        top: 136px;
+    }
+
+    .background__pattern__rings__middle {
+        background-position: calc(100% + 240px) calc(0% + 250px)
+    }
+
+
 }

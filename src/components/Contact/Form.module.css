@@ -97,3 +97,16 @@
 .hidden {
     display: none;
 }
+
+@media (min-width: 1440px) {
+    .form {
+        padding-top: 23px;
+        gap: calc(52rem / 16);
+    }
+
+    .form__element__input__text_area {
+        height: 107px;
+    }
+
+
+}

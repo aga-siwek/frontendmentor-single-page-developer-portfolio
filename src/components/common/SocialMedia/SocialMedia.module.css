@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     gap: 25px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .socialmedia__icon__img {
@@ -15,11 +17,6 @@
     vertical-align: middle;
 }
 
-.socialmedia__icon__img_twitter {
-    width: 20px;
-    height: 20px;
-    fill: var(--font-color-1)
-}
 
 .socialmedia__icon__img svg {
     display: block;
@@ -32,4 +29,23 @@
 .socialmedia__icon__img:hover {
     fill: var(--color-2)
 
+}
+
+@media (min-width: 768px) {
+
+    .socialmedia {
+        padding-bottom: 4px;
+        gap: calc(32rem / 16);
+
+
+    }
+    .socialmedia__icon {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .socialmedia__icon__img {
+        width: 24px;
+        height: 24px;
+    }
 }

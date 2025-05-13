@@ -42,7 +42,7 @@
 }
 
 @media (min-width: 768px) {
-    .contact__container {
+    .contact {
         padding: 60px 161px 0 161px;
     }
 
@@ -54,5 +54,42 @@
 
     .contact_information__text {
         font-size: calc(18rem/16);
+        line-height: 28px;
     }
+    contact__line {
+        padding: 0 32px;
+    }
+}
+@media (min-width: 1440px) {
+    .contact__container {
+        padding: 84px 165px 0 165px;
+        gap: calc(92rem/16);
+    }
+    .contact {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 0 0 0;
+        gap: calc(220rem/16);
+        justify-content: flex-start;
+    }
+
+    .contact_information {
+        align-items: flex-start;
+        gap: calc(36rem/16);
+    }
+
+    .contact_information__header {
+        font-size: calc(88rem/16);
+        line-height: 88px;
+        letter-spacing: -2.5px;
+    }
+
+    .contact_information__text {
+        text-align: left;
+    }
+
+    .contact__line {
+        padding: 0 165px;
+    }
+
 }

@@ -4,9 +4,6 @@
     width: 100%;
     align-items: center;
 }
-.bacground__circle {
-    background-image: url('../../../assets/pattern-circle.svg')
-}
 
 .photo__mobile {
     display: flex;
@@ -17,6 +14,7 @@
     top: 0;
     z-index: 1;
 }
+
 .photo__img {
     max-width: 174px
 }
@@ -33,7 +31,6 @@
     .photo {
         justify-content: center;
         width: auto;
-
     }
     .photo__mobile {
         display: none;
@@ -48,6 +45,28 @@
     }
     .photo__img {
         max-width: calc(322rem/16);
-
     }
+}
+
+@media (min-width: 1440px) {
+    .photo {
+        justify-content: center;}
+
+    .photo__tablet {
+        display: none;
+    }
+
+    .photo__desktop {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 165px;
+        z-index: 1;
+    }
+
+    .photo__img {
+        max-width: none;
+        width: 445px;}
+
+
 }

@@ -16,12 +16,14 @@
 .experience_box__exp {
     line-height: calc(26rem/16);
     font-weight: normal;
-
+    font-size: calc(18rem/16);
 }
 
 @media (min-width: 768px) {
     .experience_box {
         align-items: start;
+        max-width: 540px;
+        gap: calc(14rem/16);
     }
     .experience_box__header {
         font-size: calc(48rem/16);
