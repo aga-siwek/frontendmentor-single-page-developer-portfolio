@@ -19,8 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(80rem/16);
-    padding-top:  calc(16rem/16);
+    gap: calc(80rem / 16);
+    padding-top: calc(16rem / 16);
     width: 100%;
     position: relative;
 }
@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(80rem/16);
+    gap: calc(80rem / 16);
 }
 
 .middle_container_top {
@@ -54,25 +54,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(80rem/16);
+    gap: calc(80rem / 16);
 }
 
 .bottom_container {
     display: flex;
     flex-direction: column;
-    gap: calc(34rem/16);
+    gap: calc(34rem / 16);
     background-color: var(--color-3);
     padding-bottom: 16px;
 }
 
 .background__patterns {
-    background-image:
-            url('./assets/pattern-circle.svg'),
-            url('./assets/pattern-rings.svg') ;
+    background-image: url('./assets/pattern-circle.svg'),
+    url('./assets/pattern-rings.svg');
     background-repeat: no-repeat, no-repeat;
     background-position: calc(100% + 60px) 5.5%, calc(0% - 320px) 3%;
     position: absolute;
 }
+
 .background__pattern__circle__top {
     background-image: url('./assets/pattern-circle.svg');
     background-repeat: no-repeat;
@@ -112,21 +112,22 @@
 
 @media (min-width: 768px) {
     .container {
-        gap: calc(100rem/16);
+        gap: calc(100rem / 16);
         overflow: hidden;
     }
 
     .top_container {
         padding-bottom: 0;
     }
+
     .middle_container_top {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start ;
+        justify-content: flex-start;
     }
 
     .middle_container_bottom {
-        gap: calc(100rem/16);
+        gap: calc(100rem / 16);
     }
 
     .bottom_container {
@@ -143,10 +144,11 @@
     }
 
     .background__pattern__rings__bottom {
-        background-position: calc(0% - 350px) calc(100% - 100px);}
+        background-position: calc(0% - 350px) calc(100% - 100px);
+    }
 
     .bottom_container {
-        gap: calc(30rem/16);
+        gap: calc(30rem / 16);
     }
 }
 
@@ -154,16 +156,17 @@
     .container {
         width: 1440px;
     }
+
     .bottom_container {
-        gap: calc(47rem/16);
+        gap: calc(47rem / 16);
     }
 
     .middle_container {
-        gap: calc(219rem/16);
+        gap: calc(219rem / 16);
     }
 
     .middle_container_bottom {
-        gap: calc(140rem/16);
+        gap: calc(140rem / 16);
         padding-bottom: 28px;
 
     }
@@ -183,5 +186,8 @@
         background-position: calc(100% + 240px) calc(0% + 250px)
     }
 
-
+    .background__pattern__rings__bottom {
+        background-position: calc(0% - 210px) calc(100% - 195px);
+    }
 }
+
