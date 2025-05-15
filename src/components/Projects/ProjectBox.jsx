@@ -27,9 +27,7 @@ function ProjectBox({cover, name, technology, viewProject, viewCode}) {
                 </div>
             </div>
             <div
-                className={`${styles.projectBox__see_more} ${show ? styles.show : ""}`}
-                id="projectBox__see_more_id"
-            >
+                className={`${styles.projectBox__see_more} ${show ? styles.show : ""}`}>
                 <div className={styles.projectBox__see_more__link}>
                     <a href={viewProject}
                        className={styles.projectBox__see_more__text}>
