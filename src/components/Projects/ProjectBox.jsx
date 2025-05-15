@@ -17,7 +17,7 @@ function ProjectBox({cover, name, technology, viewProject, viewCode}) {
                 <img className={styles.projectBox__cover__img} src={cover} alt={`cover of ${name}`} />
             </div>
             <div className={styles.projectBox__info}>
-                <h4 className={styles.projectBox__name}>{name.toUpperCase()}</h4>
+                <p className={styles.projectBox__name}>{name.toUpperCase()}</p>
                 <div className={styles.projectBox__technology}>
                     {
                         technology.map((tech) => {

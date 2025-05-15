@@ -13,7 +13,7 @@ function ExperianceBox({kind, experianceYears}) {
 
     return (
         <div className={styles.experience_box}>
-            <h3 className={styles.experience_box__header}>{kind}</h3>
+            <p className={styles.experience_box__header}>{kind}</p>
             <div>
                 {showExpoeriences()}
             </div>
