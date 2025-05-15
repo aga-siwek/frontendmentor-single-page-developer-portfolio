@@ -14,17 +14,17 @@ function SocialMedia() {
     return (
         <div className={styles.socialmedia} >
             <div className={styles.socialmedia__icon}>
-                <a href={githubLink} target="blank"><ReactSVG src={githubIcon}  className={styles.socialmedia__icon__img} /></a>
+                <a href={githubLink} target="blank"><ReactSVG src={githubIcon}  className={styles.socialmedia__icon__img} alt="github icon"/></a>
             </div>
             <div className={styles.socialmedia__icon}>
-                <a href={frontendMentorLink} target="blank"><ReactSVG src={frontendMentorIcon} className={styles.socialmedia__icon__img}/></a>
+                <a href={frontendMentorLink} target="blank"><ReactSVG src={frontendMentorIcon} className={styles.socialmedia__icon__img} alt="frontend mentored icon"/></a>
             </div>
             <div className={styles.socialmedia__icon}>
-                <a href={linkedinLink} target="blank"><ReactSVG src={linkedinIcon} className={styles.socialmedia__icon__img}/></a>
+                <a href={linkedinLink} target="blank"><ReactSVG src={linkedinIcon} className={styles.socialmedia__icon__img} alt="linkedin icon"/></a>
             </div>
 
             <div className={styles.socialmedia__icon}>
-                <a href={twitterLink} target="blank"><ReactSVG src={twitterIcon} className={styles.socialmedia__icon__img}/></a>
+                <a href={twitterLink} target="blank"><ReactSVG src={twitterIcon} className={styles.socialmedia__icon__img} alt="twitter icon"/></a>
             </div>
 
         </div>
