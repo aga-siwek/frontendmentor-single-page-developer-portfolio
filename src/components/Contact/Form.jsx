@@ -107,7 +107,8 @@ function Form() {
                             onChange={handleChange}
                             onBlur={handleBlur}
                             value={values.email}
-                            className={styles.form__element__input__text}/>
+                            className={styles.form__element__input__text}
+                            role="form"/>
                         <div className={styles.form__element__input__error_icon} id="error_icon_email">
                             &#9432;
                         </div>
@@ -128,7 +129,8 @@ function Form() {
                         onChange={handleChange}
                         onBlur={handleBlur}
                         value={values.message}
-                        className={styles.form__element__input__text_area}/>
+                        className={styles.form__element__input__text_area}
+                        role="form"/>
                         <div
                             className={styles.form__element__input__error_icon}
                             id="error_icon_message">
