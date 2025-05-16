@@ -4,7 +4,7 @@ import ExperianceBox from "./ExperianceBox";
 function Experiances() {
 
     return (
-        <div className={styles.experiances} aria-label="experiences_me">
+        <div className={styles.experiances}>
             <hr className={styles.experiances__line}/>
             <div className={styles.experiances_boxs}>
                 <ExperianceBox kind="HTML" experianceYears={4} />

@@ -10,7 +10,7 @@ import artCover from "../../assets/thumbnail-project-6-large.webp"
 
 function Projects() {
     return (
-        <div className={styles.projects} aria-label="projects_me">
+        <div className={styles.projects}>
             <div className={styles.projects__header}>
                 <h2 className={styles.projects__header__text}>Projects</h2>
                 <ContactButton />
