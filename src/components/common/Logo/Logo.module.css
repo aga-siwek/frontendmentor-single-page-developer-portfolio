@@ -6,9 +6,9 @@
     text-align: center;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .logo {
-        font-size: calc(32rem/16);
+        font-size: calc(32rem / 16);
         line-height: 32px;
         letter-spacing: -0.44px;
 

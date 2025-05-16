@@ -4,10 +4,10 @@ import SocialMedia from "../common/SocialMedia/SocialMedia.jsx";
 
 function Footer() {
     return (
-            <footer className={styles.footer}>
-                <Logo />
-                <SocialMedia />
-            </footer>
+        <footer className={styles.footer}>
+            <Logo/>
+            <SocialMedia/>
+        </footer>
     )
 }
 

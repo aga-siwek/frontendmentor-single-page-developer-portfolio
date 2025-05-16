@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: calc(40rem/16);
+    gap: calc(40rem / 16);
     width: 100%;
     padding: 0 16px;
 }
@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: calc(24rem/16);
+    gap: calc(24rem / 16);
 }
 
 @media (min-width: 768px) {
@@ -31,9 +31,9 @@
     }
 
     .experiances_boxs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-        gap: calc(24rem/16) calc(121rem/16)
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: calc(24rem / 16) calc(121rem / 16)
     }
 
     .experiances__line__bottom {
@@ -45,11 +45,12 @@
 @media (min-width: 1440px) {
     .experiances {
         padding: 0 165px;
-        gap: calc(72rem/16);
+        gap: calc(72rem / 16);
     }
 
-        .experiances_boxs {
+    .experiances_boxs {
         display: grid;
         grid-template-columns:repeat(3, 1fr);
-        gap: calc(60rem/16) calc(100rem/16)}
+        gap: calc(60rem / 16) calc(100rem / 16)
+    }
 }

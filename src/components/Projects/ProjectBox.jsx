@@ -14,7 +14,7 @@ function ProjectBox({cover, name, technology, viewProject, viewCode}) {
                 onMouseLeave={() =>
                     setShow(false)}
             >
-                <img className={styles.projectBox__cover__img} src={cover} alt={`cover of ${name}`} />
+                <img className={styles.projectBox__cover__img} src={cover} alt={`cover of ${name}`}/>
             </div>
             <div className={styles.projectBox__info}>
                 <p className={styles.projectBox__name}>{name.toUpperCase()}</p>

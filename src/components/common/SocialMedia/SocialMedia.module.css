@@ -36,14 +36,14 @@
     .socialmedia {
         padding-bottom: 4px;
         gap: calc(32rem / 16);
-
-
     }
+
     .socialmedia__icon {
         display: flex;
         justify-content: center;
         align-items: flex-start;
     }
+
     .socialmedia__icon__img {
         width: 24px;
         height: 24px;

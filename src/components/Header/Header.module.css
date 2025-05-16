@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(20rem/16);
+    gap: calc(20rem / 16);
     position: relative;
     padding: 0 16px;
     z-index: 2;
@@ -20,5 +20,7 @@
 }
 
 @media (min-width: 1440px) {
-    .header {padding: 25px 185px 25px 165px;}
+    .header {
+        padding: 25px 185px 25px 165px;
+    }
 }

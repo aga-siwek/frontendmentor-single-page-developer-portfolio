@@ -13,47 +13,47 @@ function Projects() {
         <div className={styles.projects}>
             <div className={styles.projects__header}>
                 <h2 className={styles.projects__header__text}>Projects</h2>
-                <ContactButton />
+                <ContactButton/>
             </div>
             <div className={styles.ProjectsBoxes}>
                 <ProjectBox
-                    cover = {designPortfolioCover}
-                    name = "design portfolio"
-                    technology = {["html", "css"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={designPortfolioCover}
+                    name="design portfolio"
+                    technology={["html", "css"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
                 <ProjectBox
-                    cover = {elerningCover}
-                    name = "E-LEARNING LANDING PAGE"
-                    technology = {["html", "css"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={elerningCover}
+                    name="E-LEARNING LANDING PAGE"
+                    technology={["html", "css"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
                 <ProjectBox
-                    cover = {todoCover}
-                    name = "TODO WEB APP"
-                    technology = {["html", "css", "Javascript"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={todoCover}
+                    name="TODO WEB APP"
+                    technology={["html", "css", "Javascript"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
                 <ProjectBox
-                    cover = {entertainmentCover}
-                    name = "ENTERTAINMENT WEB APP"
-                    technology = {["html", "css", "Javascript"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={entertainmentCover}
+                    name="ENTERTAINMENT WEB APP"
+                    technology={["html", "css", "Javascript"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
 
                 <ProjectBox
-                    cover = {memoriesCover}
-                    name = "MEMORY GAME"
-                    technology = {["html", "css", "Javascript"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={memoriesCover}
+                    name="MEMORY GAME"
+                    technology={["html", "css", "Javascript"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
 
                 <ProjectBox
-                    cover = {artCover}
-                    name = "ART GALLERY SHOWCASE"
-                    technology = {["html", "css", "Javascript"]}
-                    viewProject = "test.pl"
-                    viewCode = "test.code"/>
+                    cover={artCover}
+                    name="ART GALLERY SHOWCASE"
+                    technology={["html", "css", "Javascript"]}
+                    viewProject="test.pl"
+                    viewCode="test.code"/>
             </div>
         </div>
     )

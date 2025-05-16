@@ -50,17 +50,17 @@ function Form() {
         formIconEmail.classList.add(styles.hidden)
         formIconMessage.classList.add(styles.hidden)
 
-        if (errors.name && touched.name){
-            console.log ("errors name")
+        if (errors.name && touched.name) {
+            console.log("errors name")
             formIconName.classList.remove(styles.hidden)
         }
         if (errors.email && touched.email) {
-            console.log ("errors email")
+            console.log("errors email")
             formIconEmail.classList.remove(styles.hidden)
             console.log(errors.email)
         }
         if (errors.message && touched.message) {
-            console.log ("errors message")
+            console.log("errors message")
             formIconMessage.classList.remove(styles.hidden)
             console.log(errors.message)
         }

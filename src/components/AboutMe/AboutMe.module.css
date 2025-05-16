@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(24rem/16);
+    gap: calc(24rem / 16);
     padding: 0 16px;
 }
 
@@ -12,14 +12,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: calc(24rem/16);
+    gap: calc(24rem / 16);
 }
 
 .about_me__header {
 }
 
 .about_me__header__text {
-    font-size: calc(40rem/16);
+    font-size: calc(40rem / 16);
     font-weight: bold;
     line-height: 40px;
     letter-spacing: -1.14px;
@@ -42,22 +42,23 @@
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        gap: calc(34rem/16);
+        gap: calc(34rem / 16);
         padding: 0 32px;
         max-width: 80%;
     }
 
     .about_me__info {
         align-items: flex-start;
-        gap: calc(60rem/16);
+        gap: calc(60rem / 16);
     }
+
     .about_me__header {
         z-index: 2;
     }
 
     .about_me__header__text {
-        font-size: calc(72rem/16);
-        line-height: calc(72rem/16);
+        font-size: calc(72rem / 16);
+        line-height: calc(72rem / 16);
         letter-spacing: -2.05px;
         text-align: left;
     }
@@ -68,7 +69,7 @@
 
     .about_me__info__text {
         text-align: left;
-        font-size: calc(18rem/16);
+        font-size: calc(18rem / 16);
         line-height: 28px;
     }
 }
@@ -76,16 +77,17 @@
 @media (min-width: 1440px) {
     .about_me {
         padding: 0 165px 0 165px;
-        gap: calc(66rem/16);
+        gap: calc(66rem / 16);
     }
+
     .about_me__info {
-        gap: calc(43rem/16);
+        gap: calc(43rem / 16);
 
     }
 
     .about_me__header__text {
-        font-size: calc(88rem/16);
-        line-height: calc(88rem/16);
+        font-size: calc(88rem / 16);
+        line-height: calc(88rem / 16);
         letter-spacing: -2.5px;
     }
 

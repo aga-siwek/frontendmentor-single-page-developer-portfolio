@@ -7,7 +7,7 @@ function Experiances() {
         <div className={styles.experiances}>
             <hr className={styles.experiances__line}/>
             <div className={styles.experiances_boxs}>
-                <ExperianceBox kind="HTML" experianceYears={4} />
+                <ExperianceBox kind="HTML" experianceYears={4}/>
                 <ExperianceBox kind="CSS" experianceYears={4}/>
                 <ExperianceBox kind="JavaScript" experianceYears={4}/>
                 <ExperianceBox kind="Accessibility" experianceYears={4}/>
@@ -16,7 +16,7 @@ function Experiances() {
             </div>
             <hr className={styles.experiances__line__bottom}/>
         </div>
-)
+    )
 }
 
 export default Experiances;

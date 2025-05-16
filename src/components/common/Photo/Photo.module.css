@@ -32,9 +32,11 @@
         justify-content: center;
         width: auto;
     }
+
     .photo__mobile {
         display: none;
     }
+
     .photo__tablet {
         display: block;
         position: absolute;
@@ -43,14 +45,16 @@
         z-index: 1;
 
     }
+
     .photo__img {
-        max-width: calc(322rem/16);
+        max-width: calc(322rem / 16);
     }
 }
 
 @media (min-width: 1440px) {
     .photo {
-        justify-content: center;}
+        justify-content: center;
+    }
 
     .photo__tablet {
         display: none;
@@ -66,7 +70,8 @@
 
     .photo__img {
         max-width: none;
-        width: 445px;}
+        width: 445px;
+    }
 
 
 }
