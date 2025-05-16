@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Contact() {
     return (
-        <div className={styles.contact__container} aria-labelledby="contact_me">
+        <div className={styles.contact__container} aria-label="contact_me">
             <div className={styles.contact}>
                 <div className={styles.contact_information}>
                     <h3 className={styles.contact_information__header}>Contact</h3>
